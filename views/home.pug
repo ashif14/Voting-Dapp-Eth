@@ -1,0 +1,14 @@
+html
+	head
+		title=title
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+		//- link(rel="stylesheet" href="resources/css/index.css")
+		script(src="./")
+	body
+		div(class="container")
+			div(class="row" id="search-form")
+				div(class="col-md-8 col-md-offset-2")
+					each user in users
+						- var name = user
+						- var f = primaryAccount
+						a(class="btn btn-primary" href='/vote?from='+f+'&name='+name)=Vote #{user}

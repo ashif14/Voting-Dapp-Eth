@@ -1,0 +1,17 @@
+{
+  "name": "hello_world_eth",
+  "version": "1.0.0",
+  "description": "Hello World Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohd Ashif Ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "pug": "^2.0.0-rc.2",
+    "solc": "*",
+    "web3": "*"
+  }
+}
